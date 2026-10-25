@@ -50,7 +50,7 @@ app.include_router(videos_router)
 MAX_FILE_SIZE = 100 * 1024 * 1024  # 100 MB
 MAX_SAMPLED_FRAMES = 12
 ALLOWED_EXTENSIONS = {".mp4", ".mov", ".avi", ".webm"}
-SYNTHETIC_THRESHOLD = 0.30
+SYNTHETIC_THRESHOLD = 0.55
 
 
 @app.get("/health")
