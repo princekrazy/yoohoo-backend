@@ -32,7 +32,7 @@ origins = [
     "http://127.0.0.1:3000",
     "http://localhost:5173",
     "http://127.0.0.1:5173",
-    "https://frontend-six-fawn-29.vercel.app/",
+    "https://frontend-six-fawn-29.vercel.app",
 
 ]
 
