@@ -104,8 +104,8 @@ def inspect_video(video_path: str) -> dict:
 
 NVIDIA_SCRIPT = (
     Path(__file__).resolve().parent.parent
-    / "nim-clients"
-    / "synthetic-video-detector"
+    / "vendor"
+    / "nvidia-synthetic-video-detector"
     / "scripts"
     / "v1"
     / "synthetic-video-detector.py"
